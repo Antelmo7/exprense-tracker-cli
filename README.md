@@ -32,7 +32,6 @@ Run: `npm i -g vexpense-tracker` to install the package globally
   $ expense-tracker delete --id 2
   # Expense deleted successfully
 
-  
   $ expense-tracker summary --month 8
   # Total expenses for August: $20
 ```
