@@ -1,0 +1,26 @@
+{
+  "name": "vexpense-tracker",
+  "version": "1.0.0",
+  "description": "Project to practice logic building, interact with filesystem, how to manage data and provide useful information.",
+  "homepage": "https://github.com/Antelmo7/exprense-tracker-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Antelmo7/exprense-tracker-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antelmo7/exprense-tracker-cli.git"
+  },
+  "license": "MIT",
+  "author": "Antelmo Verdugo <antelmoverdugo@gmail.com>",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "vexpense-tracker": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
+}
