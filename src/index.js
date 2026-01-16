@@ -55,10 +55,14 @@ function addExpense(options) {
 function listAllExpenses(options) {
   const expenses = readExpensesFile();
 
-  console.log('ID Date Description Amount');
-  expenses.forEach((expense) => {
-    console.log(`${expense.id}  ${new Date(expense.createdAt).toLocaleDateString('en-CA', { year: 'numeric', month: 'numeric', day: 'numeric' })} ${expense.description} $${expense.amount}`);
-  });
+  if (expenses.length < 1) {
+    console.log('No expenses yet');
+  } else {
+    console.log('ID Date Description Amount');
+    expenses.forEach((expense) => {
+      console.log(`${expense.id}  ${new Date(expense.createdAt).toLocaleDateString('en-CA', { year: 'numeric', month: 'numeric', day: 'numeric' })} ${expense.description} $${expense.amount}`);
+    });
+  }
 }
 
 function getStrMonth(number) {
