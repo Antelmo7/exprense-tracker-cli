@@ -1,6 +1,6 @@
 {
   "name": "vexpense-tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Project to practice logic building, interact with filesystem, how to manage data and provide useful information.",
   "homepage": "https://github.com/Antelmo7/exprense-tracker-cli#readme",
   "bugs": {
